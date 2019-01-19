@@ -1,0 +1,6 @@
+*.o
+*.pyc
+*.bin
+images
+kernel
+crosscompile

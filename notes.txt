@@ -1,0 +1,2 @@
+No current support for linux kernel changes for setting memory protections across different versions
+Made to be flexible and extendible to other architectures

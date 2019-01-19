@@ -1,0 +1,14 @@
+#any line starting with # is a comment
+#lines with a single word are assumed to be function names to look up in kallsyms
+#any lines with 2 values are assumed to be a function name or physical offset with a hex length
+#a 3rd value indicates t[ext] or d[ata] for what the area should be used for regardless of what kallsyms claims
+#if the 2nd value is t[ext] or d[ata] then the field size is assumed to be whatever kallsyms indicates
+#examples:
+#a_function
+#b_function 0x30
+#b_function text
+#a_function 0x20 d
+#1ff00 30
+
+#panic 0x500
+inet6_unregister_icmp_sender 0x500
