@@ -1,0 +1,5 @@
+config BATTELLE
+	tristate "Battelle test driver"
+	default y
+	---help---
+	  This is Battelle's test driver for Shmoocon
